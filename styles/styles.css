@@ -1,15 +1,67 @@
+body{
+  font-family:'futura';
+}
 header{
   width:100%;
-  background-color:lightgrey;
-}
-.header h1:hover{
-  size:120px;
-  color:grey;
-  transition: height .5s ease;
 }
 .header h1{
+  transition:all 0.5s ease;
   color:black;
+  font-size:50px;
+}
+.header h1:hover{
+  color:grey;
+  font-size:60px;
+}
+.border{
+  border:solid 10px lightblue;
+  margin:10px;
+  padding:10px;
 }
 .container li{
-  display:inline;
+  display:inline-block;
+}
+.container ul{
+  text-align:center;
+  margin:0 auto;
+  padding:0 auto;
+}
+.container img{
+  transition: all 0.5s ease;
+  opacity:.2;
+  padding:5px;
+}
+.container img:hover{
+  transition:hover 1s ease;
+  opacity:1;
+  padding:10px;
+}
+.container h3{
+  transition:all 0.7s ease;
+  background-color:lightgrey;
+}
+.container h3:hover{
+  background-color:lightblue;
+}
+.body h2{
+  transition:all 0.5s ease;
+  font-size:30px;
+  margin:10px;
+}
+.body h2:hover{
+  font-size:36px;
+  margin:20px;
+
+}
+.paragraph{
+  width:100%
+}
+.paragraph p{
+  padding:5px;
+  transition:all .7s ease;
+  color:grey;
+}
+.paragraph p:hover{
+  padding:15%;
+  color:purple;
 }
