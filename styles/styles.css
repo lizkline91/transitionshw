@@ -1,0 +1,15 @@
+header{
+  width:100%;
+  background-color:lightgrey;
+}
+.header h1:hover{
+  size:120px;
+  color:grey;
+  transition: height .5s ease;
+}
+.header h1{
+  color:black;
+}
+.container li{
+  display:inline;
+}
